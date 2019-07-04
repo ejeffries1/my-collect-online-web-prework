@@ -5,4 +5,5 @@ def my_collect(array)
     result.push(yield array[i])
       i += 1
 end
+result
 end
